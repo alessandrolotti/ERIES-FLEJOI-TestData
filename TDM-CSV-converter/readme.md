@@ -31,7 +31,7 @@ Ensure all the `.tdm` files you want to convert, along with their corresponding 
 Execute the script using Python:
 
 ```bash
-python tdm_to_csv_converter.py
+python tdm2csv.py
 ```
 
 ### 3. Folder Selection
