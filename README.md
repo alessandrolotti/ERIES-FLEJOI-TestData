@@ -5,7 +5,7 @@ This repository contains two main tools for working with `.tdm` (and `.tdx`) fil
 ## Tools Overview
 
 ### 1. **TDM to CSV Converter**
-- **Location**: `tdm_to_csv_converter/`
+- **Location**: `TDM-CSV_converter/`
 - **Purpose**: Converts `.tdm` files (and their associated `.tdx` files) into `.csv` format for further analysis.
 - **Key Features**:
   - Automatically handles `.tdm` and `.TDM` files.
@@ -13,7 +13,7 @@ This repository contains two main tools for working with `.tdm` (and `.tdx`) fil
   - Outputs `.csv` files with all channels from the `.tdm` file.
 
 ### 2. **TDM File Inspection Notebook**
-- **Location**: `inspect_tdm/`
+- **Location**: `Open-Test-data/`
 - **Purpose**: Allows interactive inspection of `.tdm` files in a Jupyter Notebook.
 - **Key Features**:
   - Opens `.tdm` files and their corresponding `.tdx` files.
@@ -34,10 +34,10 @@ This repository contains two main tools for working with `.tdm` (and `.tdx`) fil
    - Navigate to the respective subfolder and follow the instructions in the tool's `README.md` file.
    - For the CSV converter:
      ```bash
-     python tdm_to_csv_converter.py
+     python tdm2csv.py
      ```
    - For the inspection notebook:
-     Open the `inspect_tdm.ipynb` file in Jupyter and execute the cells.
+     Open the `openTdmData.ipynb` file in Jupyter and execute the cells.
 
 ## Repository Structure
 
@@ -45,12 +45,12 @@ This repository contains two main tools for working with `.tdm` (and `.tdx`) fil
 /TDM-Processing-Tools/
 │
 ├── tdm_to_csv_converter/
-│   ├── tdm_to_csv_converter.py
+│   ├── openTdmData.ipynb
 │   ├── README.md
 │
 ├── inspect_tdm/
 │   ├── inspect_tdm.ipynb
-│   ├── README.md
+│   ├── tdm2csv.py
 │
 └── README.md
 ```
