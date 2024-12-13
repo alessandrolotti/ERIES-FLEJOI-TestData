@@ -1,5 +1,3 @@
-# Rewriting the README content to a file as the environment was reset
-readme_content = """
 # TDM to CSV Conversion Script
 
 ## Overview
