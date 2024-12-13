@@ -55,7 +55,3 @@ This repository contains two main tools for working with `.tdm` (and `.tdx`) fil
 └── README.md
 ```
 
-## License
-
-These tools are provided under the MIT License. Feel free to use and modify them as needed.
-
