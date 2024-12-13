@@ -14,6 +14,7 @@ This script automates the process of converting `.tdm` (or `.TDM`) files into `.
 
 ## Requirements
 
+- File Structure: .tdm (or .TDM) files must be in the same folder as their corresponding .tdx files.
 - Python 3.x
 - Required Python packages:
   - `pandas`
@@ -29,6 +30,8 @@ Ensure all the `.tdm` files you want to convert are in the current working direc
 
 ### 2. Run the Script
 Execute the script using Python:
+
+
 
 ```bash
 python tdm_to_csv_converter.py
